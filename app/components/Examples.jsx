@@ -9,7 +9,12 @@ var React = require('react');
 // });
 
 var Examples = (props) => {
-  return(<h2>This is Examples .. stateless function</h2>);
+  return(
+    <div>
+      <h2>This is Examples .. stateless function</h2>
+      <h2>Welcome to weather app !</h2>
+    </div>
+  );
 }
 
 module.exports = Examples;
